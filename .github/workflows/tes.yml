@@ -1,0 +1,3 @@
+name: Tes harian
+on: {workflow_dispatch: null, schedule: [{cron: '0 12 * * *'}]}
+jobs: {halo: {runs-on: ubuntu-latest, steps: [{run: echo Halo jadwal berjalan}]}}
